@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#333333',
+    backgroundColor: '#1a1a1a',
   },
 
   containerHeader: {
@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
     width: 271,
     backgroundColor: '#262626',
     height: 54,
-    marginRight: 10,
+    marginRight: 4,
 
     borderWidth: 1,
     borderColor: '#0d0d0d',
@@ -52,7 +52,8 @@ export const styles = StyleSheet.create({
   containerMain: {
     flex: 1,
     marginTop: 32,
-    marginHorizontal: 24,
+    width: 327,
+    alignSelf: 'center',
   },
 
   containerCountdown: {
@@ -83,7 +84,7 @@ export const styles = StyleSheet.create({
 
     paddingVertical: 2,
     paddingHorizontal: 8,
-    backgroundColor: '#808080',
+    backgroundColor: '#333333',
     borderRadius: 999,
 
     fontSize: 12,
